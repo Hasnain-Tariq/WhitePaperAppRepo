@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+import React from 'react';
+import Login from './Login';
+import Signup from './Signup';
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +21,8 @@ function App() {
         >
           iNET SYSTEMS INC.
         </a>
+        <Login />
+        <Signup />
       </header>
     </div>
   );
